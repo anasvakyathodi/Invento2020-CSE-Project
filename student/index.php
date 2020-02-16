@@ -7,15 +7,14 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="../student/assets/css/style.css">
-    <title>Dashboard | Students</title>
+    <link rel="stylesheet" href="../teacher/assets/css/style.css">
+    <title>Dashboard | Teacher</title>
   </head>
   <body>
-
     <nav class="navbar navbar-dark navbar-expand-lg customnav">
     <div class="container">
       <a class="navbar-brand" href="">
@@ -35,7 +34,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
         </div>
       </div>
     </div>
-  </nav>
+    </nav>
 
     <div class="container py-4 maincontent">
       <div class="row py-4">
@@ -45,10 +44,17 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
         </div>
         <div class="col customcontent">
           <div class="row">
-            <div class="col"><a href="" class="text-decoration-none labbutton"><div>Network Programming Lab</div></a></div>
-            <div class="col"><a href="" class="text-decoration-none labbutton"><div>System Software Lab</div></a></div>
+            <div class="col"><a href="" class="text-decoration-none labbutton"><div>Network Programming Lab<p>S2</p></div></a></div>
+            <div class="col"><a href="" class="text-decoration-none labbutton"><div>System Software Lab<p>S4</p></div></a></div>
+          </div>
+          <div class="row">
+            <div class="col"><a href="" class="text-decoration-none labbutton"><div>Network Programming Lab<p>S6</p></div></a></div>
+            <div class="col"><a href="" class="text-decoration-none labbutton"><div>System Software Lab<p>S8</p></div></a></div>
           </div>
           <div class="row py-4">
+            <div class="col newlablink ">
+            <a href="" type="button" class="btn btn-outline-dark">+New lab</a>
+            </div>
             <div class="col text-right">
               <a href="" type="button" class="btn btn-outline-dark">View Past Labs</a>
             </div>
@@ -62,7 +68,6 @@ require $_SERVER['DOCUMENT_ROOT'].'/db_connect.php';
          <span class="text-muted">:D</span>
       </div>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
